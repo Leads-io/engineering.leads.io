@@ -1,0 +1,16 @@
+ol,ul {
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+
+    & li {
+        margin-bottom: 0.2rem;
+    }
+}
+
+ol {
+    list-style: decimal;
+}
+
+ul {
+    list-style: disc;
+}

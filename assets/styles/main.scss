@@ -1,0 +1,17 @@
+@import './reset.scss';
+@import './typography';
+@import './code';
+@import './list';
+
+html {
+    font-family: system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(60,30,95, 1);
+
+    &:hover {
+        color: rgba(255,105,100, 1);
+    }
+}
