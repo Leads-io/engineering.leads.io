@@ -7,12 +7,11 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
-  "devDependencies": {
-    "nuxt": "^3.1.1"
-  },
+  "devDependencies": {},
   "dependencies": {
-    "@nuxt/content": "^2.4.3",
+    "@nuxt/content": "^2.8.5",
     "lucide-vue-next": "^0.279.0",
+    "nuxt": "^3.7.4",
     "sass": "^1.58.0",
     "sass-loader": "^13.2.0"
   }

@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     ],
     content: {
       highlight: {
-        // Theme used in all color schemes.
+        preload: ['sql'],
         theme: 'github-light'
       }
     }
