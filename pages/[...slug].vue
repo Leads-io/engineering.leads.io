@@ -16,7 +16,9 @@ const { data: page } = await useAsyncData('page', () => queryContent(path).findO
 useContentHead(page);
 const { data: navigation } = await useAsyncData('navigation', async () => {
     const parentPath = path.split('/').slice(0, 2).join('/');
-    console.log(parentPath, path);
+    if (path === '/') {
+        return [];
+    }
     const nav = await fetchContentNavigation(parentPath !== '' ? parentPath : path);
     return nav[0].children
         .map((group) => ({
