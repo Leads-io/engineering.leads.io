@@ -8,5 +8,12 @@ export default defineNuxtConfig({
         preload: ['sql'],
         theme: 'github-light'
       }
-    }
+    },
+    ssr: true,
+    nitro: {
+      prerender: {
+        crawlLinks: true,
+        failOnError: false, 
+      },
+    },
 })
